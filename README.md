@@ -1,7 +1,7 @@
 # Goats_Eat_Grass_using_JAVA
 Topic: Design a simulator for an artificial life game with goats and grass.
 
-Description: I design a simulation of predatory and prey relationship where goats are predators and grass is the prey. Goats appear in the console window of fixed size as X’s and grass as I’s. The “world” consists of a 35x20 array. All creatures live in cells of this array. The world does not wrap around, i.e., there are firm boundaries at the edges of the array. Initially there are 5 goats and 10 blades of grass scattered randomly. As time processes, each creature in the world takes its turn to act for living. The complete set of turns by all living creatures is called a pass. During each pass, goats move around and eat grass while the grass grows.
+Description: I designed a simulation of predatory and prey relationship where goats are predators and grass is the prey. Goats appear in the console window of fixed size as X’s and grass as I’s. The “world” consists of a 35x20 array. All creatures live in cells of this array. The world does not wrap around, i.e., there are firm boundaries at the edges of the array. Initially there are 5 goats and 10 blades of grass scattered randomly. As time processes, each creature in the world takes its turn to act for living. The complete set of turns by all living creatures is called a pass. During each pass, goats move around and eat grass while the grass grows.
 
 During a pass, each goat is allowed to move in a randomly selected direction, provided the square is not currently occupied by another goat or outside the boundaries of the world. When the attempt is not legal, the goat does not get another chance to try again. That is, a goat has only one chance to move in each pass. When a goat moves to a new cell, it gets to eat any grass on the cell. Each goat starts with 20 food points and consumes 1 point with each pass. Every time the goat eats a blade of grass it gains 5 points.
 
@@ -9,4 +9,5 @@ Goats also age (become older). When a goat is born, it is zero days old. It then
 
 The behavior of grass is simpler. Grass never moves and doesn’t eat. Grass starts out with an age of zero and grows one day older with each pass. When a blade of grass reaches 6 days, it dies (disappears). Grass can sprout new grass between the age of 3 and 5 inclusively. Like goats, a mommy grass picks a random direction and generates a baby grass at that neighboring cell if it is empty. If it fails, it does not do another attempt.
 
-A sample interface is shown as below. I suggest you to play with the sample executable first to get a feel of what it does. The user can specify three optional parameters from the command line. The first parameter is the number of passes to run. The second parameter is the number of passes between every display of the world. The third parameter is the seed for the random number generator. For example, AlifeTest_sun4 1000 100 1234 means that the simulation will run for 1000 passes and display the world once every 100 passes with the seed of 1234 for the random number generator. If the user specifies zero passes, or a negative number, the program defaults to a single pass.
+
+
