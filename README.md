@@ -11,3 +11,10 @@ The behavior of grass is simpler. Grass never moves and doesn’t eat. Grass sta
 
 
 
+![image](https://github.com/ting20000119/Goats_Eat_Grass_using_JAVA/blob/main/img/demo1.png)
+
+![image](https://github.com/ting20000119/Goats_Eat_Grass_using_JAVA/blob/main/img/demo2.png)
+
+![image](https://github.com/ting20000119/Goats_Eat_Grass_using_JAVA/blob/main/img/demo3.png)
+
+![image](https://github.com/ting20000119/Goats_Eat_Grass_using_JAVA/blob/main/img/demo4.png)
